@@ -1,0 +1,18 @@
+<html>
+    <head>
+    </head>
+    <body onresize="fun()">
+        <p id ="resize"></p>
+        <p> We can change size <span id="ns">0 </span> times.</p>
+        <script>
+            var i=0;
+            function fun(){
+                var res1="width = "+window.outerWidth+"<br>"+"Height="+window.outerHeight;
+                document.getElementById("resize").innerHTML = res1;
+                var res2=i+=1;
+                document.getElementById("ns").innerHTML=res2;
+    
+            }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Math</h2>
+
+<p>Math exercise</p>
+
+<p id="demo"></p>
+<p id ="demo1"></p>
+<p id ="demo2"></p>
+<p id ="demo3"></p>
+<p id ="demo4"></p>
+<p id ="demo5"></p>
+<p id ="demo6"></p>
+<p id ="demo7"></p>
+<p id ="demo8"></p>
+
+<p id="nisha"></p>
+<script>
+document.getElementById("demo").innerHTML = "<p><b>Math.PI:</b> " + Math.PI + "</p>" +"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>";
+
+document.getElementById("demo1").innerHTML = "it is ceil"+" "+Math.ceil(5.4);
+document.getElementById("demo2").innerHTML = "floor"+" "+Math.floor(4.7);
+
+document.getElementById("demo3").innerHTML = "power"+" "+Math.pow(2,3);
+
+document.getElementById("demo4").innerHTML = "sqrt"+" "+Math.sqrt(64);
+document.getElementById("nisha").innerHTML = "roundoff"+" "+Math.round(9.2);
+document.getElementById("demo5").innerHTML =  "The sine value of 60 degrees is " + Math.sin(60 * Math.PI / 180);
+document.getElementById("demo6").innerHTML =  "The cos value of 45 degrees is " + Math.cos(45 * Math.PI / 180);
+document.getElementById("demo7").innerHTML =  "The tan value of 60 degrees is " + Math.tan(60 * Math.PI / 180);
+document.getElementById("demo8").innerHTML = "max"+" "+Math.max(0, 150, -30, 20, 8, 300);
+let x = Number.MAX_VALUE;
+document.write(x+"<br>");
+
+let Y = Number.MIN_VALUE;
+document.write(Y+"<br>");
+
+let x1 = Number.MAX_SAFE_INTEGER;
+document.write(x1+"<br>");
+let x2 = -1/0;
+document.write(x2+"<br>");
+let x3 = Number.POSITIVE_INFINITY;
+document.write(x3+"<br>");
+let a="Software Developer";
+let res = a.replace("developer","testing");
+document.write(res+"<br>");
+let txt="hello world";
+let re=txt.toUpperCase();
+document.write(re+"<br>");
+let b ="It was raining after few minutes it starts sunnny";
+b=b.replaceAll("raining","sunny");
+document.write(b);
+let z = 999999999999999;
+let y = 9999999999999999;
+document.write(z + "<br>" + y);
+
+</script>
+</body>
+</html

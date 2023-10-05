@@ -1,0 +1,32 @@
+<html>
+    <script>
+        var student={
+            id:1,
+            name:"Karpaganathan",
+            course:"Software testing"
+        }
+
+        document.write(student.id+" "+student.name+" "+student.course+"<br/>" )
+
+        var emp=new Object();
+        emp.id=101;
+        emp.name="Nisha";
+        emp.company="Accenture";
+        document.write(emp.id+" "+emp.name+" "+emp.company+"<br/>")
+        function Employee(id,name,company)
+        {
+            this.id=id;
+            this.name=name;
+            this.company=company;
+            this.changeName=changeName;
+            function changeName(othername)
+            {
+                this.name=othername;
+            }
+        }
+        var emp1= new Employee(102,"kaviya","Capgemini");
+        document.write(emp1.id+" "+emp1.name+" "+emp1.company+"<br/>");
+        emp1.changeName("ramya");
+        document.write(emp.id+" "+emp1.name+" "+emp.company);
+        </script>
+</html>

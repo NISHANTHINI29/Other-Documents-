@@ -1,0 +1,14 @@
+push-element is included
+pop- delete the element last 
+unshif - adding element in firstposition
+shift - delete at first position
+join - how it want to display like , - ,""etc
+slice- remove the particular element -1,-2,-3 are removing element from last
+concat - mergre or combine two or more array
+indexOf()- what is the positon 
+JSClock -inbulit method for clock
+functions
+abs
+sin,cos,tan
+acos,asin,atan,atan2
+exp,log
